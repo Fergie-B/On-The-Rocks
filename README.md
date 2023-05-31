@@ -4,7 +4,7 @@
 
 **Developer: Barry Ferguson**
  
- ##Table of Contents
+ ## Table of Contents
  
  - [About the Site](#about-the-site)
  
@@ -92,7 +92,7 @@
 - As a **User** I can **log in and out of the site** so that **I can like and comment on cocktail recipe posts, and compose my own content**
 - As a **User** I can **view my login status** so that **I can determin if I am logged in or out of the site**
 
-[Back to top ⇧]# On the Rocks | A Cocktail Recipe and Blog Website
+[Back to top ⇧] (## Table of Contents)
 
 ## UI Design
  
