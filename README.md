@@ -11,10 +11,10 @@
     2. [User Goals](#user-goals)
     3. [Site Owner Goals](#site-owner-goals)
     4. [User Stories](#user-stories)
-      1. [EPIC | Site Navigation](#epic-site-navigation)
-      2. [EPIC | CRUD Functionality](#epic-crud-fucntionality)
-      3. [EPIC | Site Administration](#epic-site-aministration)
-      4. [EPIC | Site Register/Logging](#site-register/logging)
+       1. [EPIC | Site Navigation](#epic-site-navigation)
+       2. [EPIC | CRUD Functionality](#epic-crud-fucntionality)
+       3. [EPIC | Site Administration](#epic-site-aministration)
+       4. [EPIC | Site Register/Logging](#site-register/logging)
     5. [UI Design](#ui-design)
  
  ### About the Site
