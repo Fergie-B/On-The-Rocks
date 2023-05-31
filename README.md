@@ -31,5 +31,13 @@
 
 ### User Stories
 
+#### EPIC | Site Navigation
+
+#### EPIC | CRUD Functionality
+
+#### EPIC | Site Administration
+
+#### EPIC | Site Site Register/Logging
+
 ## UI Design
  
