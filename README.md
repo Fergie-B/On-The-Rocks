@@ -14,7 +14,7 @@
     * [User Goals](#user-goals)
     * [Site Owner Goals](#site-owner-goals)
     * [User Stories](#user-stories)
-        - [EPIC 1 Site Navigation](#epic-1-site-navigation)
+        - [EPIC 1 Site Navigation and Design](#epic-1-site-navigation-and-design)
         - [EPIC 2 CRUD Functionality](#epic-2-crud-functionality)
         - [EPIC 3 Site Administration](#epic-3-site-administration)
         - [EPIC 4 Site Register and Logging](#epic-4-site-register-and-logging)
@@ -49,7 +49,9 @@
 - To be able to contact the Site Administrators
   
 ### Site Owner Goals
-- 
+- Provide a fuly responsive website
+- Provide a site that meets WCAG accessibility requirements
+- Provide a facility to allow Cocktail enthusiast to post recipes and interact with one another
 
 ### User Stories
 
@@ -89,6 +91,8 @@
 - As a **User** I can **register a user account on the site** so that **I can create and interact fully with the sites content**
 - As a **User** I can **log in and out of the site** so that **I can like and comment on cocktail recipe posts, and compose my own content**
 - As a **User** I can **view my login status** so that **I can determin if I am logged in or out of the site**
+
+[Back to top ⇧]# On the Rocks | A Cocktail Recipe and Blog Website
 
 ## UI Design
  
