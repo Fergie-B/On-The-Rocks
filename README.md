@@ -18,8 +18,10 @@
   3. [UI Design](#ui-design)
  
  ### About the Site
- On the Rocks is a Cocktail Recipe blog and website where users can find and read Cocktail recipes, and by creating an acoount can post their own recipes and comment on the site content.
+ On the Rocks is a Cocktail Recipe blog and website where users can find and read Cocktail recipes, and by creating an account can post their own recipes and comment on the site content.
  <hr>
  
  ### User Experience (UX)
+ 
+ ## 1. Target Audience
  
