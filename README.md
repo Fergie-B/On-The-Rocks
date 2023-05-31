@@ -15,7 +15,7 @@
        2. [EPIC | CRUD Functionality](#epic-crud-fucntionality)
        3. [EPIC | Site Administration](#epic-site-aministration)
        4. [EPIC | Site Register/Logging](#site-register/logging)
-    5. [UI Design](#ui-design)
+  3. [UI Design](#ui-design)
  
  ### About the Site
  On the Rocks is a Cocktail Recipe blog and website where users can find and read Cocktail recipes, and by creating an acoount can post their own recipes and comment on the site content.
