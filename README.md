@@ -1,4 +1,4 @@
-# On the Rocks | A Cocktail Recipe and Blog Website
+# On the Rocks | A Cocktail Making ClassBooking System and Blog Website
 
 [Am I responsive] (docs/)
 
@@ -37,8 +37,10 @@
 - Adult users that wish to find a cocktail to make
 - Adult users that want to post and share a cocktail that they have made
 - Adult users that want find a cocktail to make for the Spirits they have to hand
+- Adult users that want to attend classes solo or in a group to learn the art of cocktail making
 - Hospitality Industry staff looking to research cocktail types for customers requests
 - Hospitality Industry staff that want to post cocktails they have made to increase awareness of their premises
+- Hospitality Industry staff that want attend classes to learn or improve their cocktail making skills
 
 ### User Requirements and Expectations
 - Fully Responsive on all devices
@@ -50,6 +52,7 @@
 ### User Goals
 - To be able find new cocktails to make
 - To be able to find cocktails that match the Spirits they have in stock
+- To be able to book classes 
 - To be able to view and interact with Blog Posts
 - To be able to post to a Blog
 - To be able to contact the Site Administrators
@@ -57,7 +60,8 @@
 ### Site Owner Goals
 - Provide a fuly responsive website
 - Provide a site that meets WCAG accessibility requirements
-- Provide a facility to allow Cocktail enthusiast to post recipes and interact with one another
+- Provide a facility to allow Cocktail enthusiast to post recipes and interact with one another online
+- Provide a cocktail making class booking system
 
 ### User Stories
 
@@ -68,11 +72,13 @@
 - As a **User** I can **utilise the sites inbuilt Navbar, Footer and Social Media Links** so that **I can access the site links, pages and social media presence** (Must Have)
 - As a **User** I can **view a list of cocktail recipes** so that **I can make my choice of which one to read** (Must Have)
 - As a **User** I can **access a list of cocktail recipes filtered by type of spirit** so that **I can find a cocktail to make from the Spirits I have to hand** (Must Have)
+- As a **User** I can **access a link to a booking system** so that **I can easily book a class** (Must Have)
 - As a **User** I can **search for an ingredient** so that **I can find a cocktail to make from the ingredients I have to hand** (Should Have)
 
 ##### Site Design
 - As a **User** I can **browse a fully responsive website** so that **I can view the blog on any device** (Must Have)
 - As a **User** I can **browse an accessible website** so that **I can view a site that meets WCAG accessibility requirements** (Must Have)
+- As a **User** I can **see the available times for classes** so that **I can book a class at a suitable time** (Must Have)
 
 #### EPIC 2 CRUD Functionality
 
@@ -88,15 +94,23 @@
 - As a **User** I can **update and edit comments I have made** so that **I can edit any possible inaccuracies in my comments** (Must Have)
 - As a **User** I can **view likes on posts** so that **I can see how popular a Cocktail is in other users opinions** (Must Have)
 - As a **User** I can **like comments on recipes** so that **I can express gratitude to other users for commenting on my posts** (Must Have)
-- As a **User** I can **use a contact form on the site** so that **contact the site administrator to raise any issues or seek information** (Must Have)
+- As a **User** I can **use a contact form on the site** so that **I can contact the site administrator to raise any issues or seek information** (Must Have)
+- As a **User** I can **create a booking by selecting a data and time** so that **I can reserve a place** (Must Have)
+- As a **User** I can **update the booking time** so that **I can change the class time** (Must Have)
+- As a **User** I can **delete the booking** so that **I can cancel the booking** (Must Have)
+- As a **User** I can **view the booking** so that **I can be reminded when the class is on** (Must Have)
+- As a **User** I can **be notified** so that **I am made aware that my booking has been successful** (Must Have)
+- As a **User** I can **not book a class for a date in the past** so that **I know my booking is on a valid date** (Must Have)
 
 #### EPIC 3 Site Administration
 - As a **Site Administrator** I can **create, read, update and delete posts and comments** so that **so that I can manage the sites content if any is deemed inappropriate** (Must Have)
 - As a **Site Administrator** I can **mark recipes as featured content** so that **so that I can highlight users input to the blog any encourage a sense of community on the blog** (Must Have)
+- As a **Site Administrator** I can **update and cancel bookings** so that **I can manage the class numbers and avoid double bookings** (Must Have)
 
 #### EPIC 4 Site Register and Logging
 - As a **User** I can **register a user account on the site** so that **I can create and interact fully with the sites content** (Must Have)
 - As a **User** I can **log in and out of the site** so that **I can like and comment on cocktail recipe posts, and compose my own content** (Must Have)
+- As a **User** I can **log into the site** so that **I can book a class** (Must Have)
 - As a **User** I can **view my login status** so that **I can determin if I am logged in or out of the site** (Must Have)
 
 [Back to top ⇧](#table-of-contents)
