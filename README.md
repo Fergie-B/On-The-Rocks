@@ -82,6 +82,7 @@
 - As a **User** I can **update and edit comments I have made** so that **I can edit any possible inaccuracies in my comments**
 - As a **User** I can **view likes on posts** so that **I can see how popular a Cocktail is in other users opinions**
 - As a **User** I can **like comments on recipes** so that **I can express gratitude to other users for commenting on my posts**
+- As a **User** I can **use a contact form on the site** so that **contact the site administrator to raise any issues or seek information**
 
 #### EPIC 3 Site Administration
 - As a **Site Administrator** I can **create, read, update and delete posts and comments** so that **so that I can manage the sites content if any is deemed inappropriate**
