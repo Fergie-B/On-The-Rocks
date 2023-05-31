@@ -19,7 +19,13 @@
         - [EPIC 3 Site Administration](#epic-3-site-administration)
         - [EPIC 4 Site Register and Logging](#epic-4-site-register-and-logging)
         
+  - [Project Managment](#project-management)
+
+  - [Database Schema](#database-schema)
+
   - [UI Design](#ui-design)
+
+
  
 ## About the Site
  On the Rocks is a Cocktail Recipe blog and website where users can find and read Cocktail recipes, and by creating an account can post their own recipes and comment on the site content.
@@ -62,7 +68,7 @@
 - As a **User** I can **utilise the sites inbuilt Navbar, Footer and Social Media Links** so that **I can access the site links, pages and social media presence** (Must Have)
 - As a **User** I can **view a list of cocktail recipes** so that **I can make my choice of which one to read** (Must Have)
 - As a **User** I can **access a list of cocktail recipes filtered by type of spirit** so that **I can find a cocktail to make from the Spirits I have to hand** (Must Have)
-- As a **User** I can **search for an ingredient** so that **I can find a cocktail to make from the ingredients I have to hand** (Must Have)
+- As a **User** I can **search for an ingredient** so that **I can find a cocktail to make from the ingredients I have to hand** (Should Have)
 
 ##### Site Design
 - As a **User** I can **browse a fully responsive website** so that **I can view the blog on any device** (Must Have)
@@ -71,29 +77,40 @@
 #### EPIC 2 CRUD Functionality
 
 ##### User Recipes
-- As a **User** I can **add a Cocktail recipe to the blog** so that **other users can view it**
-- As a **User** I can **update or delete my recipe posts** so that **edits can be made to my recipes going forward**
-- As a **User** I can **create a draft post** so that **I can save my work and edit it later**
-- As a **User** I can **tag my cocktail recipe posts** so that **they are searchable and can be grouped with other similar cocktail recipes**
+- As a **User** I can **add a Cocktail recipe to the blog** so that **other users can view it** (Must Have)
+- As a **User** I can **update or delete my recipe posts** so that **edits can be made to my recipes going forward** (Must Have)
+- As a **User** I can **create a draft post** so that **I can save my work and edit it later** (Must Have)
+- As a **User** I can **tag my cocktail recipe posts** so that **they are searchable and can be grouped with other similar cocktail recipes** (Should Have)
 - 
 ##### User Interaction
-- As a **User** I can **like a cocktail recipe post or article** so that **I can browse it later**
-- As a **User** I can **make comments on cocktail recipes** so that **I can provide feedback to other users**
-- As a **User** I can **update and edit comments I have made** so that **I can edit any possible inaccuracies in my comments**
-- As a **User** I can **view likes on posts** so that **I can see how popular a Cocktail is in other users opinions**
-- As a **User** I can **like comments on recipes** so that **I can express gratitude to other users for commenting on my posts**
-- As a **User** I can **use a contact form on the site** so that **contact the site administrator to raise any issues or seek information**
+- As a **User** I can **like a cocktail recipe post or article** so that **I can browse it later** (Must Have)
+- As a **User** I can **make comments on cocktail recipes** so that **I can provide feedback to other users**(Must Have)
+- As a **User** I can **update and edit comments I have made** so that **I can edit any possible inaccuracies in my comments** (Must Have)
+- As a **User** I can **view likes on posts** so that **I can see how popular a Cocktail is in other users opinions** (Must Have)
+- As a **User** I can **like comments on recipes** so that **I can express gratitude to other users for commenting on my posts** (Must Have)
+- As a **User** I can **use a contact form on the site** so that **contact the site administrator to raise any issues or seek information** (Must Have)
 
 #### EPIC 3 Site Administration
-- As a **Site Administrator** I can **create, read, update and delete posts and comments** so that **so that I can manage the sites content if any is deemed inappropriate**
-- As a **Site Administrator** I can **mark recipes as featured content** so that **so that I can highlight users input to the blog any encourage a sense of community on the blog**
+- As a **Site Administrator** I can **create, read, update and delete posts and comments** so that **so that I can manage the sites content if any is deemed inappropriate** (Must Have)
+- As a **Site Administrator** I can **mark recipes as featured content** so that **so that I can highlight users input to the blog any encourage a sense of community on the blog** (Must Have)
 
 #### EPIC 4 Site Register and Logging
-- As a **User** I can **register a user account on the site** so that **I can create and interact fully with the sites content**
-- As a **User** I can **log in and out of the site** so that **I can like and comment on cocktail recipe posts, and compose my own content**
-- As a **User** I can **view my login status** so that **I can determin if I am logged in or out of the site**
+- As a **User** I can **register a user account on the site** so that **I can create and interact fully with the sites content** (Must Have)
+- As a **User** I can **log in and out of the site** so that **I can like and comment on cocktail recipe posts, and compose my own content** (Must Have)
+- As a **User** I can **view my login status** so that **I can determin if I am logged in or out of the site** (Must Have)
+
+[Back to top ⇧](#table-of-contents)
+
+## Project Management
+- Github projects was utilised in the project management of the development process. The project's Kanban board can be viewed [here](https://github.com/users/Fergie-B/projects/5)
+- 4 Epics were created: Site Navigation and Design, CRUD Functionality, Site Administration and Site Register and Logging - Site Navigation and Design, and CRUD Functionality were further broken
+down into Site navigation, Site Design, User Recipes and User Interaction to better visualize the tasks
+- MoSCoW Prioritization was utilised to prioritize issues in the Epics that were Must Have and Should Have needs for the application
+
+## Database Schema
 
 [Back to top ⇧](#table-of-contents)
 
 ## UI Design
  
+[Back to top ⇧](#table-of-contents)
