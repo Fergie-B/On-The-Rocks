@@ -1,4 +1,4 @@
-# On the Rocks | A Cocktail Making ClassBooking System and Blog Website
+# On the Rocks | A Cocktail Making Class Booking System and Blog Website
 
 [Am I responsive] (docs/)
 
@@ -243,9 +243,13 @@ down into Site navigation, Site Design, User Recipes and User Interaction to bet
 
 #### Search Field
 
+<hr>
+
 ### Footer
 
 #### Social Media Links
+
+<hr>
 
 ### Recipes
 
@@ -253,11 +257,17 @@ down into Site navigation, Site Design, User Recipes and User Interaction to bet
 
 #### Comments
 
+#### Categories
+
+<hr>
+
 ### Register
 
 ### Login
 
 ### Logout
+
+<hr>
 
 ### Booking a Session
 
@@ -267,4 +277,8 @@ down into Site navigation, Site Design, User Recipes and User Interaction to bet
 
 #### Cancel Booking Session
 
+<hr>
+
 ### Contact Us
+
+[Back to top ⇧](#table-of-contents)
