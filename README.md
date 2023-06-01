@@ -33,6 +33,10 @@
 
   - [UI Design](#ui-design)
 
+  - [Features](#features)
+
+  - [Future Features](#future-features)
+
 
  
 ## About the Site
@@ -218,7 +222,7 @@ down into Site navigation, Site Design, User Recipes and User Interaction to bet
 | ForeignKey | name         | GuestModel |
 | ForeignKey | email        | GuestModel |
 | ForeignKey | phone        | GuestModel |
-|Foreign Key | body         | TextField  |
+| ForeignKey | body         | TextField  |
 
 
 [Back to top ⇧](#table-of-contents)
@@ -226,3 +230,41 @@ down into Site navigation, Site Design, User Recipes and User Interaction to bet
 ## UI Design
  
 [Back to top ⇧](#table-of-contents)
+
+## Features
+
+### Home page
+
+### Header
+
+#### Navigation Bar
+
+#### Logo
+
+#### Search Field
+
+### Footer
+
+#### Social Media Links
+
+### Recipes
+
+### Blog
+
+#### Comments
+
+### Register
+
+### Login
+
+### Logout
+
+### Booking a Session
+
+#### My Bookings
+
+#### Edit Booking Session
+
+#### Cancel Booking Session
+
+### Contact Us
