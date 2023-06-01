@@ -22,6 +22,14 @@
   - [Project Managment](#project-management)
 
   - [Database Schema](#database-schema)
+     * [Models](#models)
+        - [User Model](#user-model)
+        - [Sessions Model](#sessions-model)
+        - [Booking Model](#booking-model)
+        - [Post Model](#post-model)
+        - [Comment Model](#comment-model)
+        - [Category Model](#category-model)
+        - [Contact Model](#contact-model)
 
   - [UI Design](#ui-design)
 
@@ -122,6 +130,96 @@ down into Site navigation, Site Design, User Recipes and User Interaction to bet
 - MoSCoW Prioritization was utilised to prioritize issues in the Epics that were Must Have and Should Have needs for the application
 
 ## Database Schema
+
+### Models 
+
+#### User Model
+
+| Key        | Name         | Type        |
+| ---------- | ------------ | ----------- |
+| PrimaryKey | user_id      | AutoField   |
+|            | password     | VARCHAR(40) |
+|            | last_login   | VARCHAR(40) |
+| 	          | is_superuser | BOOLEAN     |
+| ForeignKey | username     | VARCHAR(40) |
+|            | first_name   | VARCHAR(40) |
+|            | last_name    | VARCHAR(40) |
+|            | email        | VARCHAR(40) |
+|            | is_staff     | BOOLEAN     |
+|            | is_active    | BOOLEAN     |
+|            | date_joined  | VARCHAR(40) |
+
+#### Sessions Model
+
+| Key        | Name         | Type        |
+| ---------- | ------------ | ----------- |
+| PrimaryKey | session_id   | AutoField   |
+|            | session_name | Char(80)    |
+|            | max_places   | VARCHAR(40) |
+| 	          | Available    | BooleanField|
+
+#### Booking Model
+
+| Key        | Name          | Type       |
+| ---------- | --------------| -----------|
+| PrimaryKey | booking_id    | AutoField  |
+|            | created_date  | DateTime   |
+|            | requested_date| DateTime   |
+| 	          | requested_time| Char(10)   |
+|ForeignKey  | guest         | User model |
+|            | status        | Char(50)   |
+|            | guest_number  | intField   |
+
+#### Post Model
+
+| Key        | Name           | Type      |
+| ---------- | -------------- | ----------|
+| PrimaryKey | post_id        | AutoField |
+| ForeignKey | author         | User Model|
+|            | created_on     | DateTime  |
+| 	          | updated_on     | DateTime  |
+|            | description    | TextField |
+|            | method         | TextField |
+|            | ingredients    | TextField |
+|            | featured_image | Cloudinary|
+|            | excerpt        | TextField |
+|            | slug_unique    |           |
+|            | status         | intField  |
+|            | category       | Char(255) |
+
+#### Comment Model
+
+| Key        | Name         | Type                            |
+| ---------- | ------------ | ------------------------------- |
+| PrimaryKey | comment_id   | AutoField                       |
+| ForeignKey | post         | Post model Cascade on delete    |
+|            | name         | Char(80)                        |
+| 	          | email        | EmailField                      |
+|            | body         | TextField                       |
+|            | created_on   | DateTimeField auto_now_add_true |
+|            | approved     | BooleanField default False      |
+
+#### Category Model
+
+| Key        | Name         | Type                         |
+| ---------- | ------------ | ---------------------------- |
+| PrimaryKey | category_id  | AutoField                    |
+| ForeignKey | post         | Post model Cascade on delete |
+|            | created_at   | GuestModel                   |
+| 	          | updated_at   | GuestModel                   |
+|            | title        | Char(255)                    |
+
+
+#### Contact Model
+
+| Key        | Name         | Type       |
+| ---------- | ------------ | ---------- |
+| PrimaryKey | contact_id   | AutoField  |
+| ForeignKey | name         | GuestModel |
+| ForeignKey | email        | GuestModel |
+| ForeignKey | phone        | GuestModel |
+|Foreign Key | body         | TextField  |
+
 
 [Back to top ⇧](#table-of-contents)
 
