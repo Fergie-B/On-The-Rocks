@@ -234,30 +234,96 @@ down into Site navigation, Site Design, User Recipes and User Interaction to bet
 ## Features
 
 ### Home page
+Includes
+- Header
+- Main Body
+- Footer
 
 ### Header
+Includes
+- Logo
+- Navigation Bar
+- Search Field
 
 #### Navigation Bar
+Includes Links
+- Home
+- Recipes Dropdown
+  - Vodka
+  - Whiskey
+  - Rum
+  - Gin
+  - Tequila
+- Blog
+- Book a Class
+- Contact Us
+- Register
+- Login/Logout
 
 #### Logo
+Custom Logo Designed by myself in Adobe Illustrator
 
 #### Search Field
+Search Field in header to alow the user to search for pertinient terms
 
 <hr>
 
 ### Footer
+Includes
+- Social Media Links
+- Copyright Disclaimer
 
 #### Social Media Links
+Includes
+- Font Awesome Icon Link to Twitter.com
+- Font Awesome Icon Link to my LinkedIn profile
+- Font Awesome Icon Link to my GitHub profile
 
 <hr>
 
 ### Recipes
+- This page displays all published recipes from the blog by most recent first
+- The Filtered list in the recipes dropdown displays all published recipes by the chosen ingredient link
+- A Card displays the cocktail image, and Title.
+- Clicking inside the card will display the recipe posting
+
+#### Recipe Detail Page
+- These pages display the cocktail recipe posting in detail
+Includes
+ - Title
+ - Short Description
+ - Author Name
+ - Published date
+ - Add Comment Link
+ - Featured Image
+ - Introduction text
+ - Ingredients
+ - Method/Steps
+ - Comment Form
 
 ### Blog
+- This page displays all published blog post by most recent first
+- A Card displays the blog posting image, and Title.
+- Clicking inside the card will display the blog posting
+
+#### Blog post Detail Page
+- These pages display the blog post/cocktail recipe posting in detail
+Includes
+ - Title
+ - Short Description
+ - Author Name
+ - Published date
+ - Add Comment Link
+ - Featured Image
+ - Introduction text
+ - Ingredients
+ - Method/Steps
+ - Comment Form
 
 #### Comments
 
 #### Categories
+
 
 <hr>
 
@@ -280,5 +346,7 @@ down into Site navigation, Site Design, User Recipes and User Interaction to bet
 <hr>
 
 ### Contact Us
+
+### 404 Page
 
 [Back to top ⇧](#table-of-contents)
