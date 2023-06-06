@@ -34,6 +34,11 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['on-the-rocks.herokuapp.com', 'localhost']
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-fergieb-ontherocks-nwiysdr23l0.ws-eu98.gitpod.io/',
+    'https://www.heroku.com/'
+    ]
+
 
 # Application definition
 
@@ -49,6 +54,9 @@ INSTALLED_APPS = [
 
     # Project Apps
     'home',
+    'blog',
+    'booking',
+    'contact',
 
 ]
 
