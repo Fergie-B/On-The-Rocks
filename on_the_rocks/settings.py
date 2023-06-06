@@ -15,7 +15,7 @@ import os
 
 import dj_database_url
 
-if os.path.isfile("env.py"):
+if os.path.isfile('env.py'):
     import env
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["on-the-rocks.herokuapp.com", "localhost"]
+ALLOWED_HOSTS = ['on-the-rocks.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -95,7 +95,7 @@ WSGI_APPLICATION = 'on_the_rocks.wsgi.application'
 
 DATABASES = {
     'default':
-    dj_database_url.parse(os.environ.get("DATABASE_URL"))
+    dj_database_url.parse(os.environ.get('DATABASE_URL'))
 }
 
 

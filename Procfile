@@ -1,1 +1,1 @@
-web gunicorn on-on_the_rocks.wsgi
+web gunicorn on_the_rocks.wsgi
