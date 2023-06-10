@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['on-the-rocks.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['on-the-rocks.herokuapp.com', 'localhost', '8000-fergieb-ontherocks-nwiysdr23l0.ws-eu99.gitpod.io']
 
 CSRF_TRUSTED_ORIGINS = [
     'https://8000-fergieb-ontherocks-nwiysdr23l0.ws-eu98.gitpod.io/',
