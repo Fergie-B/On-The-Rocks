@@ -30,7 +30,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['on-the-rocks.herokuapp.com', 'localhost', '8000-fergieb-ontherocks-nwiysdr23l0.ws-eu99.gitpod.io']
 
@@ -72,6 +72,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'on_the_rocks.urls'
 
+TEMPLATES_DIR = os.path.join(BASE_DIR, "templates")
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
