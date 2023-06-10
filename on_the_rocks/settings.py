@@ -57,7 +57,6 @@ INSTALLED_APPS = [
     'blog',
     'booking',
     'contact',
-    'classes',
 
 ]
 
