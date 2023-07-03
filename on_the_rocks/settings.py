@@ -55,7 +55,6 @@ INSTALLED_APPS = [
     # Project Apps
     'home',
     'blog',
-    'booking',
     'contact',
 
 ]
@@ -103,8 +102,7 @@ WSGI_APPLICATION = 'on_the_rocks.wsgi.application'
 #}
 
 DATABASES = {
-    'default':
-    dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
 }
 
 
