@@ -1,4 +1,4 @@
-# On the Rocks | A Cocktail Making Class Booking System and Blog Website
+# On the Rocks | A Cocktail Making Blog Website - unfinished project discussed with Student Care 110723
 
 [Am I responsive] (docs/)
 
